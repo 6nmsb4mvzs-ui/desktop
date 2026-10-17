@@ -45,21 +45,31 @@ A macOS desktop customization app — wallpaper engine, dock styling, menu bar m
 ## Requirements
 
 - macOS 13.0 (Ventura) or later
-- Xcode 15.0+ for building
+- Xcode 15.0+ (command line tools at minimum)
 
-## Build
+## Quick Start
 
-### Xcode
-1. Open `VantaDesktop.xcodeproj` in Xcode
-2. Select the VantaDesktop scheme
-3. Build and Run (Cmd+R)
-
-### Command Line
 ```bash
+git clone https://github.com/6nmsb4mvzs-ui/desktop.git
+cd desktop
 ./build.sh
 ```
 
-The built app will be at `build/Build/Products/Release/VantaDesktop.app`.
+That builds and launches the app. One command.
+
+### Other commands
+
+```bash
+./build.sh install     # build + copy to /Applications + launch
+./build.sh uninstall   # remove from /Applications
+./build.sh clean       # delete build artifacts
+make                   # same as ./build.sh
+make install           # same as ./build.sh install
+```
+
+### Xcode
+
+Open `VantaDesktop.xcodeproj`, hit Cmd+R.
 
 ## Architecture
 
