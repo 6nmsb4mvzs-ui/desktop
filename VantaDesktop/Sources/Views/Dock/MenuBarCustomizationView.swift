@@ -66,7 +66,6 @@ struct MenuBarCustomizationView: View {
     }
 
     private var formattedTime: String {
-        let formatter = DateFormatter()
         var parts: [String] = []
 
         if menuBarManager.config.showDayOfWeek {

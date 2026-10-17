@@ -18,7 +18,6 @@ class MenuBarCustomizationManager: ObservableObject {
     }
 
     func loadCurrentSettings() {
-        let sysUIDefaults = UserDefaults(suiteName: "com.apple.systemuiserver")
         let menuExtras = UserDefaults(suiteName: "com.apple.menuextra.clock")
 
         config.autoHide = (UserDefaults(suiteName: "NSGlobalDomain")?.bool(forKey: "_HIHideMenuBar")) ?? false
