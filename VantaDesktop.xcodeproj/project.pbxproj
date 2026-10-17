@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* VantaDesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
+		A10002 /* CatalogueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
+		A10003 /* DockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
+		A10004 /* CatalogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
+		A10005 /* WallpaperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
+		A10006 /* DockCustomizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
+		A10007 /* MenuBarCustomizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A10008 /* UpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A10009 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A10010 /* CatalogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A10011 /* WallpaperControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A10012 /* DockCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A10013 /* MenuBarCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013; };
+		A10014 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A10015 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
+		A10016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10016; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10001 /* VantaDesktopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VantaDesktopApp.swift; sourceTree = "<group>"; };
+		B10002 /* CatalogueItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueItem.swift; sourceTree = "<group>"; };
+		B10003 /* DockConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockConfiguration.swift; sourceTree = "<group>"; };
+		B10004 /* CatalogueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueManager.swift; sourceTree = "<group>"; };
+		B10005 /* WallpaperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperService.swift; sourceTree = "<group>"; };
+		B10006 /* DockCustomizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockCustomizationManager.swift; sourceTree = "<group>"; };
+		B10007 /* MenuBarCustomizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCustomizationManager.swift; sourceTree = "<group>"; };
+		B10008 /* UpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateManager.swift; sourceTree = "<group>"; };
+		B10009 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B10010 /* CatalogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueView.swift; sourceTree = "<group>"; };
+		B10011 /* WallpaperControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperControlView.swift; sourceTree = "<group>"; };
+		B10012 /* DockCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockCustomizationView.swift; sourceTree = "<group>"; };
+		B10013 /* MenuBarCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCustomizationView.swift; sourceTree = "<group>"; };
+		B10014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10015 /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		B10016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10018 /* VantaDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VantaDesktop.entitlements; sourceTree = "<group>"; };
+		B10019 /* VantaDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VantaDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G10001 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				G10002 /* VantaDesktop */,
+				G10010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10002 /* VantaDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				G10003 /* App */,
+				G10004 /* Models */,
+				G10005 /* Services */,
+				G10006 /* Views */,
+				G10009 /* Resources */,
+				B10017 /* Info.plist */,
+				B10018 /* VantaDesktop.entitlements */,
+			);
+			path = VantaDesktop;
+			sourceTree = "<group>";
+		};
+		G10003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* VantaDesktopApp.swift */,
+			);
+			path = Sources/App;
+			sourceTree = "<group>";
+		};
+		G10004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10002 /* CatalogueItem.swift */,
+				B10003 /* DockConfiguration.swift */,
+			);
+			path = Sources/Models;
+			sourceTree = "<group>";
+		};
+		G10005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10004 /* CatalogueManager.swift */,
+				B10005 /* WallpaperService.swift */,
+				B10006 /* DockCustomizationManager.swift */,
+				B10007 /* MenuBarCustomizationManager.swift */,
+				B10008 /* UpdateManager.swift */,
+			);
+			path = Sources/Services;
+			sourceTree = "<group>";
+		};
+		G10006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10009 /* MainView.swift */,
+				G10007 /* Catalogue */,
+				G10008 /* Wallpaper */,
+				G10011 /* Dock */,
+				G10012 /* Settings */,
+			);
+			path = Sources/Views;
+			sourceTree = "<group>";
+		};
+		G10007 /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				B10010 /* CatalogueView.swift */,
+			);
+			path = Catalogue;
+			sourceTree = "<group>";
+		};
+		G10008 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				B10011 /* WallpaperControlView.swift */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		G10009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10016 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G10010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10019 /* VantaDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G10011 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				B10012 /* DockCustomizationView.swift */,
+				B10013 /* MenuBarCustomizationView.swift */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		G10012 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B10014 /* SettingsView.swift */,
+				B10015 /* UpdateView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10001 /* VantaDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10003;
+			buildPhases = (
+				S10001 /* Sources */,
+				F10001 /* Frameworks */,
+				R10001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VantaDesktop;
+			productName = VantaDesktop;
+			productReference = B10019 /* VantaDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T10001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C10001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G10001;
+			productRefGroup = G10010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10001 /* VantaDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* VantaDesktopApp.swift in Sources */,
+				A10002 /* CatalogueItem.swift in Sources */,
+				A10003 /* DockConfiguration.swift in Sources */,
+				A10004 /* CatalogueManager.swift in Sources */,
+				A10005 /* WallpaperService.swift in Sources */,
+				A10006 /* DockCustomizationManager.swift in Sources */,
+				A10007 /* MenuBarCustomizationManager.swift in Sources */,
+				A10008 /* UpdateManager.swift in Sources */,
+				A10009 /* MainView.swift in Sources */,
+				A10010 /* CatalogueView.swift in Sources */,
+				A10011 /* WallpaperControlView.swift in Sources */,
+				A10012 /* DockCustomizationView.swift in Sources */,
+				A10013 /* MenuBarCustomizationView.swift in Sources */,
+				A10014 /* SettingsView.swift in Sources */,
+				A10015 /* UpdateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C10004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C10005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C10006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VantaDesktop/VantaDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VantaDesktop/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 VantaDesktop. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantadesktop.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C10007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VantaDesktop/VantaDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VantaDesktop/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2024 VantaDesktop. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantadesktop.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10001 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10004 /* Debug */,
+				C10005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10003 /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10006 /* Debug */,
+				C10007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P10001 /* Project object */;
+}
